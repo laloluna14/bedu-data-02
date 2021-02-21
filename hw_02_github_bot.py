@@ -7,8 +7,8 @@ galileoguzman, frasgado, laloluna14, ....
 
 import requests
 
-# Importing functions from another file
-from github_user_function import get_user, download_file
+# Importing function from another file
+from github_user_function import get_user
 
 # Modified function
 def download_file(url_file, username):
